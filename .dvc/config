@@ -1,5 +1,7 @@
 [core]
     remote = s3-data-storage
 ['remote "s3-data-storage"']
-    url = s3://test-dvc-dir/
-    endpointurl = http://localhost:9000
+    url = s3://private-storage-2a78920a/dvc_example
+    endpointurl = http://minio-server.default.svc.cluster.local:9000
+    access_key_id = ONM8OT633Z4PZXMWNW79
+    secret_access_key = IVbn5+Ur+lnsEhmuIB0fG2pF5meTsSh5cuZdNHAV
